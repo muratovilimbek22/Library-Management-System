@@ -3,11 +3,30 @@
 #### I developed a web application by using Spring Boot.
 
 ### Tech stack:
-  - Spring Boot
-  - Spring Data Jpa
-  - H2 Database
-  - Thymeleaf
-  - Bootstrap4
+Requirements:
+The application should use the Spring Framework with Spring Boot and be built using Maven or Gradle. 
+
+The application should include two entities: Book and Borrower with a many-to-many relationship. 
+
+The Book entity should have the following fields: id, title, author, publisher, and ISBN. 
+
+The Borrower entity should have the following fields: id, name, email, and phone number. 
+
+The application should allow librarians to perform CRUD operations (Create, Read, Update, Delete) on each entity. 
+
+The application should use Thymeleaf as the view template engine. 
+
+The application should use Spring Data JPA to interact with the database. 
+
+The application should use Hibernate as the ORM tool. 
+
+The application should use MySQL or PostgreSQL as the database. 
+
+The application should include appropriate error handling and validation. 
+
+The application should include a user interface that is easy to use and responsive. 
+
+The application should have a search functionality that allows librarians to search for books by title, author, or ISBN. 
 
 ### Requirements
 
